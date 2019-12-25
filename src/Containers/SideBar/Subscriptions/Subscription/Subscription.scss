@@ -1,0 +1,23 @@
+@import '../../../../styled/shared.scss';
+
+.subscription {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    &:hover {
+        background-color: #ebebeb;
+        cursor: pointer;
+    }
+
+    i.icon {
+        color: $red;
+    }
+
+    .new-videos-count {
+        color: $grey;
+    }
+
+}
